@@ -19,3 +19,5 @@
       echo 'Saludo: ' . $y; 
 
       //El . se utiliza en PHP para concatenar.
+
+?>
