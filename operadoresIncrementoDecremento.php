@@ -1,6 +1,6 @@
 <?php
 
-/* Los operadores de incremento y decremento sólo afectan a números y strings, sin afectar a arrays yobjects 
+/* Los operadores de incremento y decremento sólo afectan a números y strings, sin afectar a arrays y objects. 
 Decrementar un valor NULL no tiene efecto, pero si se incrementa se obtiene 1. */
 
 /*  Operador	Efecto
@@ -10,16 +10,16 @@ Decrementar un valor NULL no tiene efecto, pero si se incrementa se obtiene 1. *
     $x--	    Retorna $x, y luego decrementa $x en 1 */
 
 
-    $x = 4;
-    echo "Esto es 4: " . $x++ . "</br>";
-    echo "Y esto es 5: " . $x . "</br>";
+    $x = 10;
+    echo "Esto es 10: " . $x++ . "</br>";
+    echo "Y esto es 11: " . $x . "</br>";
 
-    $x = 4;
-    echo "Esto es 5: " . ++$x . "</br>";
-    echo "Y esto es 5: " . $x . "</br>";
+    $x = 10;
+    echo "Esto es 11: " . ++$x . "</br>";
+    echo "Y esto es 11: " . $x . "</br>";
 
-    $x = 4;
-    echo "Esto es 4: " . $x-- . "</br>";
-    echo "Y esto es 3: " . $x . "</br>";
+    $x = 10;
+    echo "Esto es 10: " . $x-- . "</br>";
+    echo "Y esto es 9: " . $x . "</br>";
 
 ?>
