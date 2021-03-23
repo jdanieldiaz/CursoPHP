@@ -11,13 +11,13 @@
 
 
     /*El operador básico de asignación es "=", que actúa como definidor.
-      El valor de una expresión de asignación es el valor que se le ha asignado, 
-      esto es: "$x = 10" tiene un valor de 10. */
+    El valor de una expresión de asignación es el valor que se le ha asignado, 
+    esto es: "$x = 10" tiene un valor de 10. */
 
-      echo 'La variable x: ' . $x;
-      echo '<br>';
-      echo 'Saludo: ' . $y; 
+    echo 'La variable x: ' . $x;
+    echo '<br>';
+    echo 'Saludo: ' . $y; 
 
-      //El . se utiliza en PHP para concatenar.
+    //El . se utiliza en PHP para concatenar.
 
 ?>
